@@ -1,6 +1,7 @@
 # Amazon Best Seller Price Tracker
 
 This application is an automation tool that uses Selenium to automatically browse Amazon Best Seller pages, capturing the top 100 products and outputs the results as a table in the console.
+The results can also be exported as a CSV file for further analysis.
 
 ![image](https://github.com/slcheng/amazonbestsellertracker/blob/main/bestsellerpricetracker.png)
 
@@ -19,6 +20,7 @@ This application is an automation tool that uses Selenium to automatically brows
    - `Selenium.WebDriver.ChromeDriver`
 4. Make sure Google Chrome browser is installed.
 5. Edit the `bestsellerurls` list in `Program.cs` to add the Amazon Best Seller category URLs you want to track.
+
 
 
 
